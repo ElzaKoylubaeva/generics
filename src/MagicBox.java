@@ -31,7 +31,6 @@ public class MagicBox<T> {
             throw new RuntimeException("The box isn't full. " + countEmptyCells + " cell(s) are empty");
         } else {
             int randomInt = random.nextInt(maxCapacity);
-            System.out.println("Return: " + items[randomInt]);
             return items[randomInt];
         }
 
